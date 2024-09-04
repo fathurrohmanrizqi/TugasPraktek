@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnLogout.setOnClickListener {
-            Toast.makeText(this, "Selamat tinggal!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Thanks, bye!", Toast.LENGTH_LONG).show()
             finish()
         }
     }
